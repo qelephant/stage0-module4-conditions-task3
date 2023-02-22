@@ -6,7 +6,7 @@ public class AlphabeticCharacters {
 		    System.out.println("Vowel"); 
 		}
 		else if((character>='a'&&character<='z')||(character>='A'&&character<='Z'))
-			System.out.println("Consonent");
+			System.out.println("Consonant");
 		else {
 			System.out.println("wrong alphabet!");
 		}
