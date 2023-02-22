@@ -2,10 +2,10 @@ package school.mjc.stage0.conditions.task3;
 
 public class AlphabeticCharacters {
     public void vowelDeterminer(char character) {
-        if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'){
+        if(character=='a'||character=='e'||character=='i'||character=='o'||character=='u'||character=='A'||character=='E'||character=='I'||character=='O'||character=='U'){
 		    System.out.println("Vowel"); 
 		}
-		else if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))
+		else if((character>='a'&&character<='z')||(character>='A'&&character<='Z'))
 			System.out.println("Consonent");
 		else {
 			System.out.println("wrong alphabet!");
